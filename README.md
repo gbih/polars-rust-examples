@@ -11,25 +11,25 @@
 
 * Each script corresponds to a section in the Polars user guide:
 
-1: Getting Started
-2: Categorical
-3: Enum
-4: Data Structures
-5: Contexts
-6: Expressions
-7: Lazy API
-8: Streaming
-9: Expression Operators
-10: Expression Column Selections
-11: Functions
-12: Casting
-13: Strings
-14: Aggregation 
-15: Missing data
-16: Aggregation window
-17: Folds
-18: List arrays
-19: Struct
+1. Getting Started
+2. Categorical
+3. Enum
+4. Data Structures
+5. Contexts
+6. Expressions
+7. Lazy API
+8. Streaming
+9. Expression Operators
+10. Expression Column Selections
+11. Functions
+12. Casting
+13. Strings
+14. Aggregation 
+15. Missing data
+16. Aggregation window
+17. Folds
+18. List arrays
+19. Struct
 
 
 For example, to run the Categorical examples listed in https://docs.pola.rs/user-guide/concepts/data-types/categoricals/#categorical-data-type, use 
