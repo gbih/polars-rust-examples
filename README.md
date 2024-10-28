@@ -2,7 +2,7 @@
 
 # Source Material
 
-* Annotated and modified source code from the [Polars user guide], Rust version(https://docs.pola.rs/)
+* Annotated and modified source code from the Rust version of the [Polars user guide](https://docs.pola.rs/).
 
 * I have modified this source code for learning purposes, mainly for more explicitness and/or exploring further variations on a given topic.
 
