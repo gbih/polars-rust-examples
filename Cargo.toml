@@ -1,0 +1,30 @@
+[package]
+name = "polars_rust_examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+my_proc_macro = { path = "./my_proc_macro" }
+quote = "1.0.37"
+polars = { version = "0.42.0", features = [
+	"lazy",
+	"dtype-categorical",
+	"streaming",
+	"regex",
+	"strings",
+	"interpolate",
+	"concat_str",
+	"list_eval",
+	"rank",
+	"round_series",
+	"dtype-struct"
+]}
+
+indoc = "2.0.5"
+chrono = "0.4.38"
+clap = { version = "4.5.17" }
+polars-arrow = "0.42.0"
+rand = "0.8.5"
+reqwest = { version = "0.11.27", features = ["blocking"] }
+# reqwest need 11.27 to be compatible
+#reqwest = { version = "0.12.7", features = ["blocking"] }
